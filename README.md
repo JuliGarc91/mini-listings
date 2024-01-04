@@ -1,31 +1,43 @@
-# Basic React Starter
+# Mini Listings
 
-You can use this starter to create any ReactJS app you would like.
-Unlike when you use `npm create vite@latest your-app-name -- --template react`,
+Welcome to Mini-Listings, a simplified, Craigslist-inspired web application built using ReactJS and Vite. This project is designed to offer a hands-on experience with essential React concepts, including component-based architecture, state management, and routing with React Router 6.2.1.
 
-This repo has removed all of the unwanted starter code that is normally included when using `npm` to create an application.
+## Setup
 
-## Getting started
+- `fork` and `clone` this repo.
+- `npm install`
+- `npm run dev`
 
-- `clone` this application
-- change the name of this directory to a name that refers to your current project. Don't just leave it as `react-basic-starter`
-  _Hint:_ In the terminal, type `mv react-basic-starter new-name-of-your-app`
-- `cd` into the app
-- in the terminal run `git remote remove origin` in order to remove any connection to this Github folder.
 
-- run `npm install`
-- to start the project, run `npm run dev`
-- no navigate to `localhost:3000` and you will see the app
-- Now you are ready to code
+## Project Structure:
 
-If you would like to connect this afterwards to your personal Github then:
+###Components:
+**NavBar:** For navigation links.
+**LandingPage:** Welcome view.
+**CreateListingForm:** Form to create a new listing.
+**ListingsView:** View to display all listings.
+**Routes:**
+  - `/`: Landing page.
+  - `/create-listing`: Page to create a new listing.
+  - `/listings`: Page to view all listings.
 
-- go to your Github account in the browser
-- create a new repo and give it a name
-- make sure the repo is public and click `Create Repository`
-- copy the instructions under the title `…or push an existing repository from the command line`
-- paste the commands in your terminal
 
-You have now connected your project to the repo.
+## Project Components and Routes:
 
-**You have the ability to clone this repo over and over to create your own projects. Just remember to change the name of the folder so that you do not have duplicates**
+1. Navigation Bar (NavBar) Component:
+    - Implement with links to the Home ("/"), Create Listing ("/create-listing"), and View Listings ("/listings") pages.
+    - Ensure the app title in the NavBar is clickable and redirects to the Home page.
+
+1. Landing Page (LandingPage) Component:
+  - Design this component as your welcome view.
+
+1. Create Listing Form (CreateListingForm) Component:
+  - Develop a form with inputs for the person's name, city, state, and description for the listing. ( or if you want another type of listing add the appropriate inputs to the form)
+  - Handle form submission logic, including state management and redirection to the listings page ("/listings") after successful submission.
+
+1. Listings View (ListingsView) Component:
+  - Display all listings in this component.
+
+Additional Instructions
+- use React Router 6.2.1 to navigate between views.
+- use state to manage your listings for updates and displaying.
