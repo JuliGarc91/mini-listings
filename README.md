@@ -40,6 +40,6 @@ Welcome to Mini-Listings, a simplified, Craigslist-inspired web application buil
 1. **Listings View** (ListingsView) Component:
     - Display all listings in this component.
 
-Additional Instructions
+### Additional Instructions
   - use React Router 6.2.1 to navigate between views.
   - use state to manage your listings for updates and displaying.
