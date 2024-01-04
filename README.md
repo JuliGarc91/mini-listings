@@ -14,15 +14,12 @@ Welcome to Mini-Listings, a simplified, Craigslist-inspired web application buil
 ## Project Structure:
 
 ### Components:
-**NavBar:** For navigation links.
+  - **NavBar:** For navigation links.
+  - **LandingPage:** Welcome view.
+  - **CreateListingForm:** Form to create a new listing.
+  - **ListingsView:** View to display all listings.
 
-**LandingPage:** Welcome view.
-
-**CreateListingForm:** Form to create a new listing.
-
-**ListingsView:** View to display all listings.
-
-**Routes:**
+### Routes:
   - `/`: Landing page.
   - `/create-listing`: Page to create a new listing.
   - `/listings`: Page to view all listings.
