@@ -1,5 +1,7 @@
 # Mini Listings
 
+<img src="./mini-listings.png" width="400" height="400">
+
 Welcome to Mini-Listings, a simplified, Craigslist-inspired web application built using ReactJS and Vite. This project is designed to offer a hands-on experience with essential React concepts, including component-based architecture, state management, and routing with React Router 6.2.1.
 
 ## Setup
