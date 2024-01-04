@@ -24,7 +24,7 @@ Welcome to Mini-Listings, a simplified, Craigslist-inspired web application buil
   - `/listings`: Page to view all listings.
 
 
-## Project Components and Routes:
+### Component and Route Requirements:
 
 1. Navigation Bar (NavBar) Component:
     - Implement with links to the Home ("/"), Create Listing ("/create-listing"), and View Listings ("/listings") pages.
