@@ -31,15 +31,15 @@ Welcome to Mini-Listings, a simplified, Craigslist-inspired web application buil
     - Ensure the app title in the NavBar is clickable and redirects to the Home page.
 
 1. Landing Page (LandingPage) Component:
-  - Design this component as your welcome view.
+    - Design this component as your welcome view.
 
 1. Create Listing Form (CreateListingForm) Component:
-  - Develop a form with inputs for the person's name, city, state, and description for the listing. ( or if you want another type of listing add the appropriate inputs to the form)
-  - Handle form submission logic, including state management and redirection to the listings page ("/listings") after successful submission.
+    - Develop a form with inputs for the person's name, city, state, and description for the listing. ( or if you want another type of listing add the appropriate inputs to the form)
+    - Handle form submission logic, including state management and redirection to the listings page ("/listings") after successful submission.
 
 1. Listings View (ListingsView) Component:
-  - Display all listings in this component.
+    - Display all listings in this component.
 
 Additional Instructions
-- use React Router 6.2.1 to navigate between views.
-- use state to manage your listings for updates and displaying.
+  - use React Router 6.2.1 to navigate between views.
+  - use state to manage your listings for updates and displaying.
