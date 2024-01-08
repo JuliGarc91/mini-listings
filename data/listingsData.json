@@ -1,0 +1,56 @@
+[
+    {
+        "name": "John Doe",
+        "city": "New York",
+        "state": "NY",
+        "description": "A software engineer from NY."
+    },
+    {
+        "name": "Jane Smith",
+        "city": "Los Angeles",
+        "state": "CA",
+        "description": "An artist living in LA."
+    },
+    {
+        "name": "Alice Johnson",
+        "city": "Chicago",
+        "state": "IL",
+        "description": "A doctor working in Chicago."
+    },
+    {
+        "name": "Bob Brown",
+        "city": "Houston",
+        "state": "TX",
+        "description": "A teacher in Houston."
+    },
+    {
+        "name": "Chris Davis",
+        "city": "Phoenix",
+        "state": "AZ",
+        "description": "An entrepreneur from Phoenix."
+    },
+    {
+        "name": "Emma Wilson",
+        "city": "Philadelphia",
+        "state": "PA",
+        "description": "A journalist in Philadelphia."
+    },
+    {
+        "name": "Daniel Martinez",
+        "city": "San Antonio",
+        "state": "TX",
+        "description": "A chef from San Antonio."
+    },
+    {
+        "name": "Sophia Lee",
+        "city": "San Diego",
+        "state": "CA",
+        "description": "A marine biologist in San Diego."
+    },
+    {
+        "name": "Michael Taylor",
+        "city": "Dallas",
+        "state": "TX",
+        "description": "A lawyer practicing in Dallas."
+    }
+]
