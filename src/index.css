@@ -3,3 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+footer {
+  bottom: 0;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  background-color: black;
+  color: antiquewhite;
+}
